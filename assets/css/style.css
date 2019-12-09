@@ -1,0 +1,116 @@
+.wrapper .container{
+    width: 100%;
+}
+
+.img-banner{
+    width: 100%;
+    height: 30px;
+}
+body {
+    color: #777777;
+    background-color: #e9ecef;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+.mynavbar-indicator {
+    text-align: center;
+    text-decoration-line: none;
+    padding: 20px;
+    font-size: 20px;
+    color: #4aaaa5;
+    font-family: 'Sigmar One', cursive;
+}
+
+.mynavbar-indicator:hover::first-line {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(40, 181, 216);
+    text-decoration-line: none;
+}
+
+p {
+    font-style: italic;
+    text-align: left;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.contact {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    border: solid #eee;
+    border-width: 2px 0 0 0;
+}
+
+.contact-control {
+    width: 960px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 16px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.massage {
+    width: 960px;
+    background: transparent;
+    min-height: 75px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.mybtn {
+    background: #2699ab;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.mybtn:hover {
+    background-color: #e40505;
+}
+
+.Protfolio-content {
+    float: inline-start;
+    padding: 20px;
+    border-radius: 0.25rem;
+}
+
+footer, .push {
+    height: 25px;
+    margin-top: 20%;
+    background-color: #446e9b;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    .img-banner{
+        display: none;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .wrapper{
+       width: 600px;
+       margin: 0 auto;
+
+    }
+}
