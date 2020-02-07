@@ -13,6 +13,11 @@ body {
     box-sizing: border-box;
     
 }
+.center {
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+  }
 .mynavbar-indicator {
     text-align: center;
     text-decoration-line: none;
@@ -27,6 +32,12 @@ body {
     font-size: 40px;
     color: rgb(40, 181, 216);
     text-decoration-line: none;
+}
+.btn2{
+    color:black;
+}
+.btn2:hover {
+    color:white;
 }
 
 p {
@@ -94,17 +105,7 @@ p {
     text-align: center;
 }
 
-footer, .push {
-    height: 25px;
-    margin-top: 20%;
-    background-color: #446e9b;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-}
+
 
 @media only screen and (max-width: 768px){
     .img-banner{
@@ -128,7 +129,6 @@ footer, .push {
 
     .contact-control {
         width: 60%;
-        
         border-bottom: 1px solid gray;
         margin-bottom: 16px;
 
